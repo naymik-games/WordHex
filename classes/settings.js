@@ -1,7 +1,7 @@
 let qTotal = 5; //col
 let rTotal = 5; //row
 let imageW = 80;
-let imageH = 70; 
+let imageH = 70;
 let scale = 1.8;
 let lScale = 1.7;
 let sScale = 1;
@@ -9,8 +9,8 @@ let hexW = imageW * scale;
 let hexH = imageH * scale;
 let hexSide = hexW / 2;
 //hexagon
-let depth = 3;
-let boardType = 'hex';
+let depth = 2;
+let boardType = 'rhom';
 
 let gameTime = 120;
 
@@ -25,7 +25,7 @@ let dropMaxAllowed = 5;
 let dropExistCount = 0;
 let dropsTotalMade = 0;
 
-let allowRover = false;
+let allowRover = true;
 let roverFrame = 7;
 let roverShowMax = 3;
 let roverMaxAllowed = 5;
